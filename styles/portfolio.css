@@ -87,28 +87,43 @@ img {
   }
 
   /* main section */
-  main{
+main{
     max-width: 1368px;
     margin: 0 auto;
-  }
+ }
 
-  /* About me section styles */
-  .about{
+/* About me section styles */
+.about{
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
   }
-  .section-title{
-    font-weight: 700;
+.section-title{
     font-size: 35px;
     margin-bottom: 30px;
   }
-  .section-description{
+.section-description{
     font-size: 18px;
-    font-weight: 400;
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
+  }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+  }
+.about .info-title{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+  }
+.about .info-description{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
   }
