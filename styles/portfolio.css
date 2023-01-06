@@ -84,46 +84,80 @@ img {
     max-height:676px;
     width: auto;
     height: auto;
-  }
+}
 
   /* main section */
 main{
     max-width: 1368px;
     margin: 0 auto;
- }
+}
 
 /* About me section styles */
 .about{
     margin-top: 130px;
+    margin-bottom: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-  }
+}
 .section-title{
     font-size: 35px;
     margin-bottom: 30px;
-  }
+    text-align: center;
+}
 .section-description{
     font-size: 18px;
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
-  }
+}
 .about-info-container{
     display: flex;
     justify-content: space-around;
-  }
+}
 .about .info-title{
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     color: #757575;
-  }
+}
 .about .info-description{
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     color: #474747;
-  }
+}
+
+  /* What I Do styles */
+.my-tech-stack{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.skill{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill img{
+    /* margin: 30px 0 0 30px; */
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
