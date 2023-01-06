@@ -14,8 +14,6 @@
     border: 0;
     padding: 18px 35px;
     height:64px;
-    /* width: 150px;
-    text-align: center; */
     border-radius: 5px;
     background: #FD6E0A;
 }
@@ -32,7 +30,6 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
-    /* margin: 50px 200px; */
 }
 .nav-title {
     font-weight: 800;
@@ -91,11 +88,12 @@ main{
     max-width: 1368px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 
 /* About me section styles */
 .about{
-    margin-top: 130px;
-    margin-bottom: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -103,7 +101,7 @@ main{
 }
 .section-title{
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .section-description{
@@ -132,22 +130,17 @@ main{
 
   /* What I Do styles */
 .my-tech-stack{
-    margin-top: 130px;
 }
 .skills-container{
     display: flex;
     gap: 24px;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 .skill{
     padding: 30px;
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-}
-.skill img{
-    /* margin: 30px 0 0 30px; */
 }
 .skill-title{
     font-weight: 700;
@@ -160,4 +153,54 @@ main{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+/* Resume styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-container{
+    /* margin: 0; */
+    /* justify-content: center; */
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+.resume-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+.resume-subtitle{
+    /* margin-bottom: 20px; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+.resume-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.resume-item .title{
+    margin-bottom: 10px;
+}
+.resume-item .subtitle{
+    margin-bottom: 20px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 640px;
+    height: 0px;
+    left: 230px;
+    top: 2809px;
+    border: 1px solid #D1D1D1;
 }
