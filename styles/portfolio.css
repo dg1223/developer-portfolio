@@ -204,3 +204,29 @@ hr{
     top: 2809px;
     border: 1px solid #D1D1D1;
 }
+
+/* Contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    width: 100%;
+}
+.contact input{
+    height: 64px;
+}
+.contact textarea{
+    height: 180px;
+}
+.contact a{
+    text-decoration: none;
+    padding-right: 10px;
+}
